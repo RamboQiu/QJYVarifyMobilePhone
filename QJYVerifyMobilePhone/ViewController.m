@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "NSString+QJYVerifyMobilePhone.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 
 @end
 
@@ -18,10 +21,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+- (IBAction)testClick:(id)sender {
+    self.statusLabel.text = [self.textField.text isValidPhoneNumber]?@"YES":@"NO";
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [self testClick:nil];
+    return YES;
 }
 
 @end

@@ -13,6 +13,7 @@
 		41EA86AA1CD201FF00ABFD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EA86A81CD201FF00ABFD20 /* Main.storyboard */; };
 		41EA86AC1CD201FF00ABFD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EA86AB1CD201FF00ABFD20 /* Assets.xcassets */; };
 		41EA86AF1CD201FF00ABFD20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EA86AD1CD201FF00ABFD20 /* LaunchScreen.storyboard */; };
+		41EA86B81CD2108000ABFD20 /* NSString+QJYVerifyMobilePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EA86B71CD2108000ABFD20 /* NSString+QJYVerifyMobilePhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		41EA86AB1CD201FF00ABFD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41EA86AE1CD201FF00ABFD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41EA86B01CD201FF00ABFD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EA86B61CD2108000ABFD20 /* NSString+QJYVerifyMobilePhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QJYVerifyMobilePhone.h"; sourceTree = "<group>"; };
+		41EA86B71CD2108000ABFD20 /* NSString+QJYVerifyMobilePhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QJYVerifyMobilePhone.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				41EA86A31CD201FF00ABFD20 /* AppDelegate.m */,
 				41EA86A51CD201FF00ABFD20 /* ViewController.h */,
 				41EA86A61CD201FF00ABFD20 /* ViewController.m */,
+				41EA86B61CD2108000ABFD20 /* NSString+QJYVerifyMobilePhone.h */,
+				41EA86B71CD2108000ABFD20 /* NSString+QJYVerifyMobilePhone.m */,
 				41EA86A81CD201FF00ABFD20 /* Main.storyboard */,
 				41EA86AB1CD201FF00ABFD20 /* Assets.xcassets */,
 				41EA86AD1CD201FF00ABFD20 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EA86B81CD2108000ABFD20 /* NSString+QJYVerifyMobilePhone.m in Sources */,
 				41EA86A71CD201FF00ABFD20 /* ViewController.m in Sources */,
 				41EA86A41CD201FF00ABFD20 /* AppDelegate.m in Sources */,
 				41EA86A11CD201FF00ABFD20 /* main.m in Sources */,
@@ -300,6 +306,7 @@
 				41EA86B51CD201FF00ABFD20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
